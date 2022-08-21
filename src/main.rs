@@ -1,10 +1,7 @@
 extern crate alfred;
-// extern crate clap;
 
 use std::io;
-
 use clap::{App, Arg};
-// use std::io;
 use sysinfo::{Process, ProcessExt, System, SystemExt, RefreshKind, ProcessRefreshKind};
 
 fn main() {
